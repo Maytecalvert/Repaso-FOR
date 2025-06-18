@@ -17,6 +17,12 @@ public class IntroArrays : MonoBehaviour
 
         //escribir el ultimo elemento del array
         Debug.Log(edades[edades.Length -1]);
+
+        //escribir todos los valores del array
+        for (int i=0; i < edades.Length; i++)
+        {
+            Debug.Log(edades[i]);
+        }
     
     }
 
